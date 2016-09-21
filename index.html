@@ -29,7 +29,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><span>Lumino</span>Admin</a>
+				<a class="navbar-brand" href="#"><span>FPL</span>Admin</a>
 				<ul class="user-menu">
 					<li class="dropdown pull-right">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg> User <span class="caret"></span></a>
@@ -97,7 +97,7 @@
 		
 		<div class="row">
 			<div class="col-lg-12">
-				<h1 class="page-header">Dashboard</h1>
+				<h1 class="page-header">Dashboard</h1>				
 			</div>
 		</div><!--/.row-->
 		
@@ -162,7 +162,8 @@
 					<div class="panel-heading">Site Traffic Overview</div>
 					<div class="panel-body">
 						<div class="canvas-wrapper">
-							<canvas class="main-chart" id="line-chart" height="200" width="600"></canvas>
+							<!--<canvas class="main-chart" id="line-chart" height="200" width="600"></canvas>-->
+							<iframe frameborder="0" height="600px" src="https://gpoudel.github.io/gitFPL/fplBoardLive/2016/playerPtsTreemap.html" width="100%"></iframe>
 						</div>
 					</div>
 				</div>
@@ -207,9 +208,11 @@
 				</div>
 			</div>
 		</div><!--/.row-->
-								
+			
+		
 		<div class="row">
-			<div class="col-md-8">
+		    
+			<div class="col-md-8"> 
 			
 				<div class="panel panel-default chat">
 					<div class="panel-heading" id="accordion"><svg class="glyph stroked two-messages"><use xlink:href="#stroked-two-messages"></use></svg> Chat</div>
@@ -268,6 +271,7 @@
 				</div>
 				
 			</div><!--/.col-->
+			
 			
 			<div class="col-md-4">
 			
@@ -355,8 +359,11 @@
 								
 			</div><!--/.col-->
 		</div><!--/.row-->
+		
 	</div>	<!--/.main-->
 
+     	 
+		 
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/chart.min.js"></script>
